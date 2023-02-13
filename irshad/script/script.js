@@ -1,6 +1,5 @@
 //Catalogue Button start
 const toggleBtn = document.querySelector('#toggleBtn');
-const changeBtn = document.querySelector('#changeBtn');
 const card = document.querySelector('.card');
 const icon = document.querySelector('.fa-solid');
 
@@ -18,9 +17,7 @@ toggleBtn.onclick = toggle;
 //Catalogue Button ended
 
 //Countdown Timer start
-
 var countDownDate = new Date("Feb 25, 2023 23:59:59").getTime();
-
 var myfunc = setInterval(function () {
 
     var now = new Date().getTime();
@@ -32,7 +29,7 @@ var myfunc = setInterval(function () {
     var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
 
-    document.getElementById("days").innerHTML = days + "gün "
+    document.getElementById("days").innerHTML = days + " gün "
     document.getElementById("hours").innerHTML = hours + " :"
     document.getElementById("mins").innerHTML = minutes + " :"
     document.getElementById("secs").innerHTML = seconds + ""
@@ -46,7 +43,6 @@ var myfunc = setInterval(function () {
         document.getElementById("end").innerHTML = "0 gün 0 : 0 : 0";
     }
 }, 1000);
-
 //Countdown Timer ended
 
 //Timer Products start
@@ -87,7 +83,6 @@ const multiLang =()=>{
 }
 
 a.addEventListener('click',multiLang)
-
 //Language Button ended
 
 

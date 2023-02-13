@@ -12,32 +12,43 @@
 </head>
 
 <body>
-        <header>
+        <header> <!--Navbar , phone number , personal cabinet and language button-->
+
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <div class="container-fluid">
+
+                        <div class="container-fluid"> <!--Navbar left side-->
+
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
                                         aria-expanded="false" aria-label="Toggle navigation">
                                         <span class="navbar-toggler-icon"></span>
                                 </button>
+                                
                                 <!-- <a class="navbar-brand" href="#">Navbar</a>-->
+                                
                                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                                
                                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                
                                                 <li class="nav-item">
                                                         <a class="nav-link active" aria-current="page"
                                                                 href="#">Kampaniya</a>
                                                 </li>
+                                
                                                 <li class="nav-item">
                                                         <a class="nav-link" href="#">Magazalar</a>
                                                 </li>
+                                
                                                 <li class="nav-item">
                                                         <a class="nav-link" href="#" tabindex="-1"
                                                                 aria-disabled="true">Korporativ</a>
                                                 </li>
+                                
                                                 <li class="nav-item">
                                                         <a class="nav-link" id="chColor" href="#" tabindex="-1"
                                                                 aria-disabled="true">Outlet</a>
                                                 </li>
+                                
                                                 <li class="nav-item">
                                                         <a class="nav-link" id="yalnzOn" href="#" tabindex="-1"
                                                                 aria-disabled="true">Yalniz Online</a>
@@ -51,8 +62,9 @@
                                 </div>
                         </div>
 
-                        <div class="navb-right pull-left">
+                        <div class="navb-right pull-left"> <!--Navbar right side-->
                                 <div class="container">
+
                                         <div class="contItem"> <img id="nomre" src="img/ulduz171-black.svg" alt=""
                                                         srcset="">
                                         </div>
@@ -86,6 +98,7 @@
                                                 </div>
                                         </div>
 
+
                                 </div>
 
 
@@ -93,42 +106,99 @@
                 </nav>
                 <hr>
         </header>
-        <div class="bottom-side">
-                <div class="bottom-logo"> <a href="https://irshad.az"> <img
+
+        <div class="bottom-side"> <!--Logo , catalogue , search bar , yellow buttons-->
+
+                <div class="bottom-logo"> <!--Logo-->
+                        <a href="https://irshad.az"> <img
                                         src="https://irshad.az/images/svg-icons/logo.svg?v=3" alt="İrşad" width="109"
                                         height="48"> </a>
                 </div>
-                <div class="mt-6">
+
+                <div class="mt-6"> <!--Catalogue-->
                         <button id="toggleBtn" class="btn btn-success"><i class="fa-solid fa-x"></i> Kataloq</button>
 
                         <div id="show" class="card mt-3 bg-light" style="width: 18rem;">
                                 <div class="card-body">
                                         <ul>
-                                                <li class="card-title"><a href="#">Outlet</a></li>
-                                                <li class="card-title"><a href="#">Yalniz Online</a></li>
-                                                <li class="card-title"><a href="#">Telefon ve Aksesuar</a></li>
-                                                <li class="card-title"><a href="#">Boyuk meiset texnikasi</a></li>
-                                                <li class="card-title"><a href="#">Kicik meiset texnikasi</a></li>
-                                                <li class="card-title"><a href="#">TV ve Audio</a></li>
-                                                <li class="card-title"><a href="#">Foto ve Texnika</a></li>
-                                                <li class="card-title"><a href="#">Noutbuk, planset ve komputer
+                                                <li class="card-title"><a href="#"><svg
+                                                                        xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                        height="24" viewBox="0 0 24 24" fill="none"
+                                                                        stroke="currentColor" stroke-width="2"
+                                                                        stroke-linecap="round" stroke-linejoin="round"
+                                                                        class="feather feather-home">
+                                                                        <path
+                                                                                d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z">
+                                                                        </path>
+                                                                        <polyline points="9 22 9 12 15 12 15 22">
+                                                                        </polyline>
+                                                                </svg>Outlet</a></li>
+                                                <li class="card-title"><a href="#"><i
+                                                                        class="fa-solid fa-cart-plus "></i>Yalniz
+                                                                Online</a></li>
+                                                <li class="card-title"><a href="#"><svg
+                                                                        xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                        height="24" viewBox="0 0 24 24" fill="none"
+                                                                        stroke="currentColor" stroke-width="2"
+                                                                        stroke-linecap="round" stroke-linejoin="round"
+                                                                        class="feather feather-smartphone">
+                                                                        <rect x="5" y="2" width="14" height="20" rx="2"
+                                                                                ry="2"></rect>
+                                                                        <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                                                                </svg>Telefon ve Aksesuar</a></li>
+                                                <li class="card-title"><a href="#"><img
+                                                                        style="width: 24px; height: 24px;"
+                                                                        src="https://irshad.az/storage/product-categories/27/icons8-appliances-1-1.svg"
+                                                                        alt="Böyük məişət texnikası">Boyuk meiset
+                                                                texnikasi</a></li>
+                                                <li class="card-title"><a href="#"><img
+                                                                        style="width: 24px; height: 24px;"
+                                                                        src="https://irshad.az/storage/product-categories/2287/icons8-microwave-1.svg"
+                                                                        alt="Kiçik məişət texnikası">Kicik meiset
+                                                                texnikasi</a></li>
+                                                <li class="card-title"><a href="#"><svg
+                                                                        xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                        height="24" viewBox="0 0 24 24" fill="none"
+                                                                        stroke="currentColor" stroke-width="2"
+                                                                        stroke-linecap="round" stroke-linejoin="round"
+                                                                        class="feather feather-tv">
+                                                                        <rect x="2" y="7" width="20" height="15" rx="2"
+                                                                                ry="2"></rect>
+                                                                        <polyline points="17 2 12 7 7 2"></polyline>
+                                                                </svg>TV ve Audio</a></li>
+                                                <li class="card-title"><a href="#"><svg
+                                                                        xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                        height="24" viewBox="0 0 24 24" fill="none"
+                                                                        stroke="currentColor" stroke-width="2"
+                                                                        stroke-linecap="round" stroke-linejoin="round"
+                                                                        class="feather feather-camera">
+                                                                        <path
+                                                                                d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z">
+                                                                        </path>
+                                                                        <circle cx="12" cy="13" r="4"></circle>
+                                                                </svg>Foto ve Texnika</a></li>
+                                                <li class="card-title"><a href="#"><i class="fa fa-laptop"
+                                                                        aria-hidden="true"></i>Noutbuk, planset ve
+                                                                komputer
                                                                 texnikasi</a></li>
 
                                         </ul>
                                 </div>
                         </div>
                 </div>
-                <div class="searchbar">
+
+                <div class="searchbar"> <!--Search bar-->
                         <div class="input-group">
                                 <input id="search-input" placeholder="Sireceken" type="search" id="form1"
                                         class="form-control" />
 
-                                <button id="search-button" type="button" class="btn btn-light">
+                                <button id="search-button" type="button" class="btn btn-light"> <!--Search button-->
                                         <i class="fas fa-search"></i>
                                 </button>
                         </div>
                 </div>
-                <div class="buttons-right">
+
+                <div class="buttons-right"> <!--Yellow buttons and green button-->
                         <div class="container">
                                 <div class="row" id="buttonsRow">
                                         <div class="col" id="buttonsCol">
@@ -152,7 +222,7 @@
                                                         </button>
                                                 </div>
                                         </div>
-                                        <div class="col" id="buttonsCol">
+                                        <div class="col" id="buttonsCol"> <!--Green button-->
 
                                                 <div class="buttonItem"> <button type="button"
                                                                 class="btn btn-outline-success" id="greenButton"><i
@@ -168,9 +238,11 @@
                 </div>
 
         </div>
-        <div class="gallery">
+
+        <div class="gallery"> <!--Carousel and timer card-->
+
                 <div class="row">
-                        <div class="carusel col-sm" style="width: 60%;">
+                        <div class="carusel col-sm" style="width: 60%;"> <!--Carousel-->
                                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"
                                         data-interval="5000">
                                         <ol class="carousel-indicators">
@@ -199,10 +271,11 @@
 
                                 </div>
                         </div>
+
                         <div class="timerCard col-sm"
-                                style="justify-content: center; align-items: center; display: flex;">
+                                style="justify-content: center; align-items: center; display: flex;"> <!--Timer card-->
                                 <div class="card" style="width: 600px; height: 300px;">
-                                        <div class="card-header">
+                                        <div class="card-header"> <!--Timer card header-->
                                                 <div class="row">
                                                         <div class="leftT">Heftenin teklifi</div>
                                                         <div class="rightT">
@@ -225,10 +298,8 @@
                 </div>
         </div>
         <hr>
-        <div class="cards">
 
-        </div>
-        <section class="services">
+        <section class="services"> <!--Four cards that show services-->
                 <div class="container-fluid">
                         <div class="row">
                                 <div class="col-sm-3">
@@ -250,7 +321,16 @@
                                 <div class="col-sm-3">
                                         <div class="card">
                                                 <div class="card-body" id="serviceTwo">
-                                                        <svg style="color: green;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                                        <svg style="color: green;" xmlns="http://www.w3.org/2000/svg"
+                                                                width="30" height="30" viewBox="0 0 24 24" fill="none"
+                                                                stroke="currentColor" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                class="feather feather-map-pin">
+                                                                <path
+                                                                        d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z">
+                                                                </path>
+                                                                <circle cx="12" cy="10" r="3"></circle>
+                                                        </svg>
                                                         <h5 class="card-title"><a href="#">Sene uygun unvan</a></h5>
 
                                                 </div>
@@ -259,16 +339,30 @@
                                 <div class="col-sm-3">
                                         <div class="card">
                                                 <div class="card-body" id="serviceThree">
-                                                        <svg style="color: green; fill:green" xmlns="http://www.w3.org/2000/svg" width="30" height="30" class="bi bi-wallet" viewBox="0 0 16 16"> <path d="M0 3a2 2 0 0 1 2-2h13.5a.5.5 0 0 1 0 1H15v2a1 1 0 0 1 1 1v8.5a1.5 1.5 0 0 1-1.5 1.5h-12A2.5 2.5 0 0 1 0 12.5V3zm1 1.732V12.5A1.5 1.5 0 0 0 2.5 14h12a.5.5 0 0 0 .5-.5V5H2a1.99 1.99 0 0 1-1-.268zM1 3a1 1 0 0 0 1 1h12V2H2a1 1 0 0 0-1 1z"/> </svg>
-                                                        <h5 class="card-title"><a href="#">Sene uygun odenis imkanlari</a></h5>
+                                                        <svg style="color: green; fill:green"
+                                                                xmlns="http://www.w3.org/2000/svg" width="30"
+                                                                height="30" class="bi bi-wallet" viewBox="0 0 16 16">
+                                                                <path
+                                                                        d="M0 3a2 2 0 0 1 2-2h13.5a.5.5 0 0 1 0 1H15v2a1 1 0 0 1 1 1v8.5a1.5 1.5 0 0 1-1.5 1.5h-12A2.5 2.5 0 0 1 0 12.5V3zm1 1.732V12.5A1.5 1.5 0 0 0 2.5 14h12a.5.5 0 0 0 .5-.5V5H2a1.99 1.99 0 0 1-1-.268zM1 3a1 1 0 0 0 1 1h12V2H2a1 1 0 0 0-1 1z" />
+                                                        </svg>
+                                                        <h5 class="card-title"><a href="#">Sene uygun odenis
+                                                                        imkanlari</a></h5>
                                                 </div>
                                         </div>
                                 </div>
                                 <div class="col-sm-3">
                                         <div class="card">
                                                 <div class="card-body" id="serviceFour">
-                                                        <svg style="color: green;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shield"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-                                                        <h5 class="card-title"><a href="#">Sene uygun zemanet ve servis</a></h5>
+                                                        <svg style="color: green;" xmlns="http://www.w3.org/2000/svg"
+                                                                width="30" height="30" viewBox="0 0 24 24" fill="none"
+                                                                stroke="currentColor" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                class="feather feather-shield">
+                                                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z">
+                                                                </path>
+                                                        </svg>
+                                                        <h5 class="card-title"><a href="#">Sene uygun zemanet ve
+                                                                        servis</a></h5>
                                                 </div>
                                         </div>
                                 </div>
@@ -280,11 +374,11 @@
         <div class="problems">
                 <div class="card-body">
                         <h5>PROBLEMS</h5>
-                                <p>-Carusel image responsiblity</p>
-                                <p>-Responsiblity menu opens but does not close</p>
-                                <p>-Responsiblity right side buttons</p>
-                                <p>-Language </p>
-                                <p>-English flag</p>
+                        <p>-Carusel image responsiblity</p>
+                        <p>-Responsiblity menu opens but does not close</p>
+                        <p>-Responsiblity right side buttons</p>
+                        <p>-Language </p>
+                        <p>-English flag</p>
                 </div>
         </div>
 

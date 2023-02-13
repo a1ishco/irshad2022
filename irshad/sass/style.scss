@@ -58,7 +58,7 @@ header {
 
 .navb-right {
     width: 500px;
-    margin-left: -100px;
+    margin-right:50px;
 }
 
 .navb-right .container {
@@ -72,6 +72,7 @@ header {
     font-weight: bold;
     border: 1px solid orange;
     border-radius: 10%;
+    width: fit-content;
 }
 
 #chColor {
@@ -141,6 +142,20 @@ a:hover {
 
 }
 
+.mt-6 ul{
+    list-style-type: none;
+    :hover,:focus {
+        color: orange;
+        font-weight:normal;
+    }
+    svg , .fa ,.fa-solid ,img {
+        margin-top: -5px;
+        margin-right:5px;
+        
+    }
+}
+
+
 .gallery {
     position: relative;
     z-index: -1;
@@ -165,7 +180,7 @@ a:hover {
 
 #search-input {
     height: 100%;
-    width: 500px;
+    width: 390px;
 }
 
 #search-button {
@@ -183,7 +198,7 @@ a:hover {
 }
 
 .buttons-right {
-    margin-left: 20px;
+    margin-left: 80px;
 }
 
 .buttons-right .container {
@@ -195,9 +210,6 @@ a:hover {
     width: 100px;
     margin-top: -20px;
 
-    :hover {
-        color: yellow;
-    }
 }
 
 #greenButton {
